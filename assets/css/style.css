@@ -1,0 +1,39 @@
+.header {
+    background-image:linear-gradient(rgba(247, 243, 243, 0.11),rgba(247, 243, 243, 0.11)), url(/assets/images/headerImage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-color: green;
+    color: rgb(221, 253, 252);
+    font-weight: 300;
+    text-shadow: 1px .5px black;
+    text-align: center
+}
+
+
+
+.play-area {
+    height: 40em;
+    text-align: center;
+    width: 1140px;
+}
+
+.play-area h2 {
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.clues {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.stats {
+    border: 1px solid black;
+}
+
+#hint-image {
+    background-position: center;
+    background-size: cover;
+}

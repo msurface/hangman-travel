@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Michael's Word Guess Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css">
+    <script src="/assets/javascript/game.js"></script>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid header">
+        <div class="container">
+            <h1 class="display-4">Guess My Travel Bucket List</h1>
+            <p class="lead" id="start-game">Press Enter to start the game!</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row play-area">
+            <div class="col-md-6 clues">
+                <h2>Clues</h2>
+                <p id="hint"></p>
+                <img id="hint-image">
+            </div>
+            <div class="col-md-6 stats">
+                <p id="message"></p>
+                <h3>Number of wins: </h3>
+                <p id="wins"></p>
+                <h3>Current Word</h3>
+                <p id="current-word"></p>
+                <h3>Remaining Guesses</h3>
+                <p id="guesses-remaning"></p>
+                <h3>Letters Already Guessed</h3>
+                <p id="letters-guessed"></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
