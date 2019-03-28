@@ -5,11 +5,11 @@ let lettersGuessed = [];
 
 // creating an object of words to guess
 const wordsToGuess = [
-    {words: "Thailand", hint: 'Country in Southeast Asia where the movie "The Beach" was filmed.', image: "/assets/images/bigBudda.jpg"},
-    {words: "Australia", hint: 'This country is a continent..."Down Under"', image: "/assets/images/sydneyOperaHouse.jpg" },
-    {words: 'Croatia', hint: 'Kings Landing from Game of Thrones is filmed in this country. There are 1,256 islands here.', image: '/assets/images/croatia.jpeg' },
-    {words: 'Spain', hint: 'This country is well known for the food Paella.', image: '/assets/images/barcelona.jpeg' },
-    {words: 'Amsterdam', hint: "This city is known for Canals, as Anne Frank's home, and The Red Light District.", image: '/assets/images/amsterdam.jpeg' },
+    {words: "Thailand", hint: 'Country in Southeast Asia where the movie "The Beach" was filmed.', image: "assets/images/bigBudda.jpg"},
+    {words: "Australia", hint: 'This country is a continent..."Down Under"', image: "assets/images/sydneyOperaHouse.jpg" },
+    {words: 'Croatia', hint: 'Kings Landing from Game of Thrones is filmed in this country. There are 1,256 islands here.', image: 'assets/images/croatia.jpeg' },
+    {words: 'Spain', hint: 'This country is well known for the food Paella.', image: 'assets/images/barcelona.jpeg' },
+    {words: 'Amsterdam', hint: "This city is known for Canals, as Anne Frank's home, and The Red Light District.", image: 'assets/images/amsterdam.jpeg' },
     // {word: '', hint: '', image: './assets/images/' },
     // {word: '', hint: '', image: './assets/images/' },
     // {word: '', hint: '', image: './assets/images/' },

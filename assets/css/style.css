@@ -1,9 +1,8 @@
 .header {
-    background-image:linear-gradient(rgba(247, 243, 243, 0.11),rgba(247, 243, 243, 0.11)), url(/assets/images/headerImage.jpg);
+    background-image:linear-gradient(rgba(247, 243, 243, 0.11),rgba(247, 243, 243, 0.11)), url('../images/headerImage.jpg');
     background-size: cover;
     background-position: center;
     height: 50vh;
-    background-color: green;
     color: rgb(221, 253, 252);
     font-weight: 300;
     text-shadow: 1px .5px black;
