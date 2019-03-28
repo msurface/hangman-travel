@@ -11,7 +11,7 @@ const wordsToGuess = [
     {words: 'Spain', hint: 'This country is well known for the food Paella.', image: 'assets/images/barcelona.jpeg' },
     {words: 'Amsterdam', hint: "This city is known for canals, as Anne Frank's home, and The Red Light District.", image: 'assets/images/amsterdam.jpeg' },
     {words: 'Prague', hint: 'Kanye West filmed the Diamonds music video in this city. There local drink 150 liters of beer every year, most in the world per capita.', image: 'assets/images/prague.jpg'},
-    {words: 'Vietnam', hint: 'In this country you can get a nice bowl of Pho', image: 'assets/images/vietnam.jpf' },
+    {words: 'Vietnam', hint: 'In this country you can get a nice bowl of Pho', image: 'assets/images/vietnam.jpg' },
     {words: 'Colombia', hint: "Shakira's home country. South America's second most populated country.", image: 'assets/images/bogota.jpg'},
     {words: 'Greece', hint: 'The country considered to be the worlds first Democracy. Gyros taste good here, too.', image: 'assets/images/athens.jpg' },
     {words: 'Cuba', hint: '90 miles south of Miami.', image: 'assets/images/cuba.jpg' },
@@ -43,7 +43,7 @@ function start() {
     let placeImage = "";
     // choosing a word convering it to lower case letters and storing it in a variable
     let randomObject = wordsToGuess[Math.floor(Math.random() * wordsToGuess.length)];
-    randomWord = randomObject.words;
+    randomWord = randomObject.words.toLowerCase();
     console.log('Chosen word: ' + randomWord);
 
     // adding the dashes into #current-word DOM element
